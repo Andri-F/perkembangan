@@ -1,0 +1,190 @@
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: rgb(65, 13, 56);
+    --heading-color: #818cab;
+    --headback-background-image: linear-gradient(rgb(61, 9, 50), rgb(80, 9, 68));
+}
+
+.dark {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+
+    /*other styles*/
+    
+}
+
+
+  .dark .gambar{
+    background-color: var(--bg-color);
+  }
+  
+  .dark .gambar1{
+    background-color: var(--bg-color);
+  }
+  
+  .dark .headback{
+    background-image: var(--headback-background-image);
+  }
+  
+  .dark .logo{
+    filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) 
+    contrast(80%);filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+  }
+  
+  .dark .logo1{
+    filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) 
+    contrast(80%);filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+  }
+  
+  .dark .dropbtn{
+    background-color: #350432;
+  }
+  
+  .dark .dropdown:hover .dropbtn{
+    background-color: #630d5e;
+  }
+  
+  .dark .dropdown-content{
+    background-color: darkblue;
+  }
+  .dark .home{
+    background-color: darkblue;
+  }
+  
+  .dark .home:hover{
+    background-color: rgb(30, 120, 255);
+  }
+  
+  .dark .darkbtn{
+    border-style: none;
+    background-color: darkblue;
+  }
+  
+  .dark .darkbtn:hover{
+    border-style: none;
+    background-color: rgb(30, 120, 255);
+  }
+  
+  .dark .baju{
+    background-color: rgb(59, 12, 59);
+  }
+  
+  .dark .baju:hover{
+    background-color: darkmagenta;
+  }
+  
+  .dark footer{
+    background-image: linear-gradient(rgb(61, 9, 50), rgb(80, 9, 68));
+  }
+  
+  .dark footer h6{
+    color: #ffffff;
+  }
+  
+  .dark footer li{
+    color: aqua;
+  }
+  
+  .dark footer li:hover{
+    color: rgb(4, 243, 163);
+  }
+  
+  .dark #searchbar{
+    background-color: #350432;
+  }
+  
+  .dark .signinbtn{
+    color: darkviolet;
+    background-image: linear-gradient(rgb(61, 9, 50), rgb(80, 9, 68));
+  }
+  
+  .dark .signinfont{
+    color: darkviolet;
+  }
+  
+  .dark .darktext{
+    color: white;
+  }
+  
+  .dark .gambar:hover{
+    background-color: rgb(20, 20, 46);
+  }
+  
+  .dark .gambar1:hover{
+    background-color: rgb(20, 20, 46);
+  }
+
+h1 {
+    color: var(--secondary-color);
+
+    /*other styles*/
+    
+}
+
+a {
+    color: var(--primary-color);
+
+    /*other styles*/
+    
+}
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+}
+    em {
+      margin-left: 10px;
+      font-size: 1rem;
+  }
+
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .theme-switch input {
+    display:none;
+  }
+  
+  .slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+  
+  input:checked + .slider {
+    background-color: #66bb6a;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
